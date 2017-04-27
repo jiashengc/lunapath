@@ -1,0 +1,80 @@
+/* 
+MAIN COLOR: #2980b9
+SECONDARY COLOR: #EEEEEE
+TEXT: #2c3e50;
+*/
+
+li {
+    list-style-type: none;
+}
+
+.bspace {
+    margin: 50px;
+}
+
+.computerScience {
+    color: #2c3e50;
+}
+
+.computerScience h1 {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.computerScience p {
+    font-size: 20px;
+}
+
+.sectionA {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.chart {
+    margin: 0 auto;
+    text-align: right;
+}
+
+.chart p {
+    margin-top: -10px;
+}
+
+.chart .lbar,
+.chart .rbar{
+    font: 16px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 4px;
+    margin: 2px;
+    color: #EEEEEE;
+    float: right;
+    clear: both;
+}
+
+.rChart {
+    text-align: left;
+}
+
+.chart .rbar {
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+.chart .cname {
+    font-size: 12px;
+}
+
+.sectionB {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionB course {
+    margin: 0 auto;
+}
