@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" contet="public">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="description" content="One Stop for all things education related. Stats, Advice, Events, Universities, Online Training, Bootcamps, and MOOCs.">
+    <meta name="author" content="Chong Jia Sheng">
+    <meta name="keywords" content="Computer Science, Education, Information Technology, University Advice, Avisor">
+    <link rel="canonical" href="http://lunapath.com/compare-universities-degree.html" />
+    <link rel="shortcut icon" type="image/png" href="image/logo.png">
+    <title>Compare Universities Degree | LunaStop Education</title>
+    
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="One Stop All for Education | LunaPath Education" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://lunapath.education/compare-universities-degree" />
+    <meta property="og:image" content="http://lunapath.education/image/logo.png" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@Jiashengc_" />
+    <meta name="twitter:title" content="One Stop All for Education | LunaPath Education" />
+    <meta name="twitter:description" content="One stop for all things computer science education related. Stats, Programming, Universities, Bootcamps, MOOCs." />
+    <meta name="twitter:image" content="http://lunapath.education/image/logo.png" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/compareuni.css">
+    
+    <!-- JS -->
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/fuse.min.js"></script>
+    <script src="javascript/compareuni.js"></script>
+    
+    <!-- MEI -->
+    <script src="javascript/rivescript.min.js"></script>
+    <script src="javascript/mei.js"></script>
+
+</head>
+    
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+        <div class="row navi">
+            <div class="col-xs-12 col-sm-4">
+                <p><a href="http://lunapath.education"><img src="http://lunapath.education/image/logo.png"><span>Luna Path Education</span></a></p>
+            </div>
+            <div class="navili col-xs-12 col-sm-8">
+                <p><a href="http://lunapath.education">Home</a> | <a href="http://lunapath.education/university-search">Uni Search</a> | <a href="http://lunapath.education/compare-universities-degree.html">Course Compare</a></p>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="mainContent">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            
+            <!-- 1st University Choice -->
+            <div class="col-sm-5">
+                <div class="infoBox animated fadeIn">
+                    
+                    <!-- University Info-->
+                    <div class="infoItem infoItem1 hidden">
+                        <div class="row">
+                            <div class="col-xs-10 col-sm-10">
+                                <h3 class="compareTitle">COMPARE THIS UNIVERSITY:</h3>
+                            </div>
+                            <div class="col-xs-10 col-sm-1">
+                                <div class="dropdown dropdown1"><span class="glyphicon glyphicon glyphicon-menu-down " aria-hidden="true"></span></div>
+                            </div>
+                        </div>
+                        <h2 class="uniName uniName1"></h2>
+                        <div class="rankings row">
+                            <div class="col-xs-5 col-sm-5 qsRank qsRank1">QS Rank: ?</div>
+                            <div class="col-xs-5 col-sm-5 theRank theRank1">THE Rank: ?</div>
+                        </div>
+                        <h4 class="miscInfo age1">Age: >9000</h4>
+                        <h4 class="miscInfo status1">Status: ?</h4>
+                        <hr>
+                        
+                        <!-- Academic Faculty Staff -->
+                        <div class="tSection tStaff row">
+                            <div class="col-xs-12 col-sm-12"><h4>Number of Academic Faculty Staff</h4></div>
+                            <div class="col-xs-5 col-sm-5 tTotal"><p class="staff1">Total: ?</p></div>
+                            <div class="col-xs-5 col-sm-5 tInt"><p class="intstaff1">International: ?</p></div>
+                        </div>
+                        
+                        <!-- Students -->
+                        <div class="tSection tStudent row">
+                            <div class="col-sm-12"><h4>Number of Students</h4></div>
+                            <div class="col-xs-5 col-sm-5 sTotal"><p class="student1">Total: ?</p></div>
+                            <div class="col-xs-5 col-sm-5 sInt"><p class="intstudent1">International: ?</p></div>
+                        </div>
+                        <hr>
+                        
+                        <!-- Description -->
+                        <div class="tSection">
+                            <h4>Description:</h4>
+                            <p class="desc1">...</p>
+                        </div>
+                        <hr>
+                        
+                        <!--  Undergraduate + Postgraduate -->
+                        <div class="tSection courseSelection1">
+                            <h4>Undergraduate: </h4>
+                            <div class="course" id="undergrad1">...</div>
+                            <div class="space"></div>
+                            <h4>Postgraduate: </h4>
+                            <div class="course" id="postgrad1">...</div>
+                        </div>
+                        
+                        <!-- Course Info -->
+                        <div class="tSection hidden" id="courseInfo1">
+                            <div class="row">
+                                <div class="col-sm-10"><div class="name1"></div></div>
+                                <div class="col-sm-2"><div class="courseExit courseExit1"><span class="glyphicon glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></div></div>
+                            </div>
+                            <div class="require1"></div>
+                            <div class="cost1local"></div>
+                            <div class="cost1int"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Selection -->
+                    <div class="selectItem selectItem1">
+                        <div class="row">
+                            <div class="col-xs-10 col-sm-10">
+                                <h3 class="compareTitle">SELECT UNIVERSITY TO COMPARE:</h3>
+                            </div>
+                            <div class="col-xs-1 col-sm-1">
+                                <div class="dropdown dropdown1"><span class="glyphicon glyphicon glyphicon glyphicon-remove " aria-hidden="true"></span></div>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                        <div class="uniChoice">
+                            <input type="text" placeholder="Search" class="fuzzSearch fuzzSearch1">
+                            <hr>
+                            <div class="allChoice" id="choiceOne"></div>
+                            <!-- University Choices go here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Comparision University Choice -->
+            <div class="col-sm-5">
+                <div class="infoBox animated fadeIn">
+                    
+                    <!-- University Info -->
+                    <div class="infoItem infoItem2 hidden">
+                        <div class="row">
+                            <div class="col-xs-10 col-sm-10">
+                                <h3 class="compareTitle">WITH THIS UNIVERSITY:</h3>
+                            </div>
+                            <div class="col-xs-10 col-sm-1">
+                                <div class="dropdown dropdown2"><span class="glyphicon glyphicon glyphicon-menu-down " aria-hidden="true"></span></div>
+                            </div>
+                        </div>
+                        <h2 class="uniName uniName2"></h2>
+                        <div class="rankings row">
+                            <div class="col-xs-5 col-sm-5 qsRank qsRank2">QS Rank: ?</div>
+                            <div class="col-xs-5 col-sm-5 theRank theRank2">THE Rank: ?</div>
+                        </div>
+                        <h4 class="miscInfo age2">Age: ?</h4>
+                        <h4 class="miscInfo status2">Status: ?</h4>
+                        <hr>
+                        
+                        <!-- Academic Faculty Staff -->
+                        <div class="tStaff row">
+                            <div class="col-sm-12"><h4>Number of Academic Faculty Staff</h4></div>
+                            <div class="col-xs-5 col-sm-5 tTotal staff2"><p>Total: ?</p></div>
+                            <div class="col-xs-5 col-sm-5 tInt intstaff2"><p>International: ?</p></div>
+                        </div>
+                        
+                        <!-- Students -->
+                        <div class="tSection tStudent row">
+                            <div class="col-sm-12"><h4>Number of Students</h4></div>
+                            <div class="col-xs-5 col-sm-5 sTotal student2"><p>Total: ?</p></div>
+                            <div class="col-xs-5 col-sm-5 sInt intstudent2"><p>International: ?</p></div>
+                        </div>
+                        <hr>
+                        
+                        <!-- Description -->
+                        <div class="tSection">
+                            <h4>Description:</h4>
+                            <p class="desc2">...</p>
+                        </div>
+                        <hr>
+                        
+                        <!-- Courses -->
+                        <div class="tSection courseSelection2">
+                            <h4>Undergraduate: </h4>
+                            <div class="course" id="undergrad2"></div>
+                            <div class="space"></div>
+                            <h4>Postgraduate: </h4>
+                            <div class="course" id="postgrad2"></div>
+                        </div>
+                        
+                        <!-- Course Info -->
+                        <div class="tSection hidden" id="courseInfo2">
+                            <div class="row">
+                                <div class="col-sm-10"><div class="name2"></div></div>
+                                <div class="col-sm-2"><div class="courseExit courseExit2"><span class="glyphicon glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></div></div>
+                            </div>
+                            <div class="require2"></div>
+                            <div class="cost2local"></div>
+                            <div class="cost2int"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Selection -->
+                    <div class="selectItem selectItem2">
+                        <div class="row">
+                            <div class="col-xs-10 col-sm-10">
+                                <h3 class="compareTitle">SELECT UNIVERSITY TO COMPARE:</h3>
+                            </div>
+                            <div class="col-xs-10 col-sm-1">
+                                <div class="dropdown dropdown2"><span class="glyphicon glyphicon glyphicon glyphicon-remove " aria-hidden="true"></span></div>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                        <div class="uniChoice">
+                            <input type="text" placeholder="Search" class="fuzzSearch fuzzSearch2">
+                            <hr>
+                            <div class="allChoice" id="choiceTwo"></div>
+                            <!-- University Choices go here -->
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    
+    <!-- MEI -->
+    <div class="animated chatBox hidden">
+        <div class="chatMain">
+            <div class="chatHeader">
+                <h4>Mei</h4>
+                <div class="chatSpace">
+                </div>
+            </div>
+            <div class="chatInput">
+                <input class="userInput" placeholder=" You say">
+            </div>
+        </div> 
+    </div>
+    <div class="animated chatBot">
+        <h4 class="chatMei">Chat with Mei</h4>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="col-xs-12 col-sm-4">
+            <h4>About LunaPath Education</h4>
+            <p>About</p>
+            <p>Contact</p>
+            <p>Team</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <h4>Connect</h4>
+            <p>Facebook</p>
+            <p>Twitter</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <h4>Stuff You Should Check Out</h4>
+            <p>University & Degree Comparer</p>
+            <p>Data Visualizer</p>
+            <p>A Challenge a Day</p>
+        </div>
+        <div class="col-xs-12">
+            <br>
+            <p>© Luna Stop 2016 - Made with ✿ in Malaysia</p>
+        </div>
+    </footer>
+</body>
+    
+</html>
