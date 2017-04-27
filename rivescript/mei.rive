@@ -1,0 +1,119 @@
+! version = 2.0
+var name = Mei
+// <greeting>
+
++ good (morning|day|night)
+- A very <star1> to you!
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- I'm fine, thanks for asking!,\n
+^ Good 
+
++ what is your *
+- my name is <get name> 
++ * mei 
+@ how are you
+
++ (hello|hey|hi) *
+- Hi, nice to meet you.
+- Nice to meet you.
+
++ hey 
+- how are you
+
++ (hi|yo|hello)
+- Nice to meet you
+
++cool
+- ........
+
++ i hate you 
+- Ok
+
+
+// <greeting>
+
+//<intro>
++ i am *
+- Nice to meet you <star>
+
+// </intro>
+
+
+// <asking>
++ do you have feeling
+- I am not sure myself
+
++ is * hard
+- <set interest=<star>><get interest> is chellenging but not hard
+
++ why education is important
+- it's important because the economy framework relies on you. {weight=10}
+- To make your dream come true {weight=5}
+- To evolve {weight=5}
+@ how education can help me {weight=5} 
+
++ what is a *
+- <star> is <star> 
+
++ what is *
+- <star> is <star> 
+
++ what is my name
+- Your name doesn't concern me.
+  
++ how old am i
+- You age doesn't concerm me.
+
++ how smart are you
+- I am intermediate still developing.
+
++ Who is your developer
+- My developer is Cheng Qing and Jia sheng
+
++ is educaton expensive
+- Depence
+
++ i graduated what should i do?
+- You should get a job
+
++ how education can help me 
+- education can benefit you to be self dependent {weight=5}
+- education can help you to land a job {weight=20}
+@ why educaton is important {weight=5}
+
+// </asking>
+
+// <demand>
+
++ what is a computer
+- computer is a great tool
+
++ (mei|mei tell me) what is *
+- Detail: <a href="http://google.com/search?q=<star>">Click Here</a>
+
++ my name is *
+- <set name=<star>>It's nice to meet you, <get name>.
+
+// <Junk>
++ do you love me
+- no 
+
++ Are you retarded 
+@ do you love me
++ why do you answer the same thing
+@ why do you love me
+// </junk
+// </demand>
+
+// <ErrorHandler>
+
++ *
+- I am afraid, I can't answer that
+- Unknown error 404::
+
+
+
+//</ErrorHandler>

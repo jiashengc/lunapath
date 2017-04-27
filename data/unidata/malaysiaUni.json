@@ -1,0 +1,446 @@
+[
+        {
+            "name": "Taylor's University",
+            "logo": "http://lunapath.education/image/logo/tayloruni.png",
+            "qsrank": "-",
+            "therank": "-",
+            "age": 47,
+            "status": "private",
+            "academic_staff": 612,
+            "academic_int": 113,
+            "students_total": 6206,
+            "students_int": 1179,
+            "desc": "Taylor's University is a private university in Subang Jaya, Selangor, Malaysia. It was founded in 1969 as a college, was awarderded university college status in 2006, and university status in 2010.",
+            "undergrad": [
+                {
+                    "course": "Diploma in Information Techology",
+                    "requirement": [
+                        "SPM - Pass with min. 3 credits including Mathematics / Additional Mathematics, and a passs in English, Bahasa Melayu, and History.",
+                        "O-Level - Pass with min. 3 credits including Mathematics / Additional Mathematics and a pass in English",
+                        "UEC - Pass with min. 3B including Mathematics and a pass in English"
+                    ],
+                    "cost": {
+                        "local": 44912,
+                        "international": 57000
+                    }
+                },
+                {
+                    "course": "Foundation in Computing",
+                    "requirement": [
+                        "SPM - Pass with min. 3 credits including Mathematics / Additional Mathematics, and a passs in English, Bahasa Melayu, and History.",
+                        "O-Level - Pass with min. 3 credits including Mathematics / Additional Mathematics and a pass in English",
+                        "UEC - Pass with min. 3B including Mathematics and a pass in English"
+                    ],
+                    "cost": {
+                        "local": 22912,
+                        "international": 28000
+                    }
+                },
+                {
+                   "course": "Bachelor of Computer Science",
+                    "requirement": [
+                        "FIC - Pass win min. CGPA 2.00",
+                        "DIT - Pass with min. CGPA 2.50",
+                        "STPM - Min. CGPA 2.33 in 3 subjects including C in Mathematics",
+                        "UEC - Pass with 5Bs, max. 24 points including B in Mathematics and English",
+                        "A-Level - 3 principals passed with CDD / AEE / CCE / BDE OR 2 principals passed with BB / AC inlcuding min. C in Mathematics",
+                        "SACE/WACE - Min. ATAR 65 including B- in Mathematics",
+                        "CPU - Min. average of 65% in 6 subjects including 65% in Mathematics (All Mathematics subjects except Data Management)",
+                        "IB - Min. 28 points in 6 subjects including min. 5 points in High Level (HL) Mathematics and min. 6 points in General / Business Mathematics"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    } 
+                },
+                {
+                   "course": "Bachelor of Software Engineering",
+                    "requirement": [
+                        "FIC - Pass win min. CGPA 2.00",
+                        "DIT - Pass with min. CGPA 2.50",
+                        "STPM - Min. CGPA 2.33 in 3 subjects including C in Mathematics",
+                        "UEC - Pass with 5Bs, max. 24 points including B in Mathematics and English",
+                        "A-Level - 3 principals passed with CDD / AEE / CCE / BDE OR 2 principals passed with BB / AC inlcuding min. C in Mathematics",
+                        "SACE/WACE - Min. ATAR 65 including B- in Mathematics",
+                        "CPU - Min. average of 65% in 6 subjects including 65% in Mathematics (All Mathematics subjects except Data Management)",
+                        "IB - Min. 28 points in 6 subjects including min. 5 points in High Level (HL) Mathematics and min. 6 points in General / Business Mathematics"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    } 
+                },
+                {
+                   "course": "Bachelor of Information Technology",
+                    "requirement": [
+                        "FIC - Pass win min. CGPA 2.00",
+                        "DIT - Pass with min. CGPA 2.50",
+                        "STPM - Min. CGPA 2.33 in 3 subjects including C in Mathematics",
+                        "UEC - Pass with 5Bs",
+                        "A-Level - Min. EE including Mathematics",
+                        "SACE/WACE - Min. ATAR 55 including C- in Mathematics",
+                        "CPU - Min. average of 65% in 6 subjects including 65% in Mathematics (All Mathematics subjects except Data Management)",
+                        "IB - Min. 28 points in 6 subjects including min. 4 points in High Level (HL) Mathematics and min. 5 points in General / Business Mathematics"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    } 
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "Master in Computing",
+                    "requirement": [
+                        "Bachelor - Pass with 4.1 CGPA"
+                    ],
+                    "cost": {
+                        "local": 0,
+                        "international": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Sunway University",
+            "logo": "http://lunapath.education/image/logo/sunwayuni.png",
+            "qsrank": "-",
+            "therank": "-",
+            "age": 29,
+            "status": "private",
+            "academic_staff": "-",
+            "academic_int": "-",
+            "students_total": "-",
+            "students_int": "-",
+            "desc": "Sunway University is a university with a 10 hectare (24 acre) campus in Subang Jaya, Selangor, Malaysia comprising academic and residential blocks. It was opened in 1987, as Sunway College; in 2004, the College was upgraded by the Malaysian Ministry of Higher Education to a University College and in January 2011, it was upgraded again to Sunway University.",
+            "undergrad": [
+                {
+                    "course": "Diploma in Information Technology",
+                    "requirement": [
+                        "SPM/O-Level - Pass with min. 3 credits (including English and Mathematics)",
+                        "UEC - Pass with min. 3Bs (including Mathematics)"
+                    ],
+                    "cost": {
+                        "local": 44912,
+                        "international": 57000
+                    }
+                },
+                {
+                    "course": "Bachelor of Computer Science",
+                    "requirement": [
+                        "STPM - Average C+ or CGPA 2.33 (min. 2 principles)",
+                        "A-Levels - CC/CDE (minimum 12 points)",
+                        "SACE/WACE - ATAR 60",
+                        "MUFY - 240 (60%)",
+                        "FIA - 60%",
+                        "FIST - 60%",
+                        "UEC - Max. 26 points from 5 subjects (all Grade Bs including Mathematics)",
+                        "IB - Completed with minimum 25 points (excluding bonus points)"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    }
+                },
+                {
+                    "course": "Bachelor of Information Systems",
+                    "requirement": [
+                        "STPM - Average C or CGPA 2.0 (min. 2 principles)",
+                        "A-Levels - CD/DDE (minimum 10 points)",
+                        "SACE/WACE - ATAR 55",
+                        "MUFY - 220 (55%)",
+                        "FIA - 55%",
+                        "FIST - 55%",
+                        "UEC - Max. 28 points from 5 subjects (all Grade Bs including Mathematics)",
+                        "IB - Completed with minimum 24 points (excluding bonus points)"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    }
+                },
+                {
+                    "course": "Bachelor of Information Technology",
+                    "requirement": [
+                        "STPM - Average C+ or CGPA 2.33 (min. 2 principles)",
+                        "A-Levels - CC/CDE (minimum 12 points)",
+                        "SACE/WACE - ATAR 60",
+                        "MUFY - 240 (60%)",
+                        "FIA - 60%",
+                        "FIST - 60%",
+                        "UEC - Max. 26 points from 5 subjects (all Grade Bs including Mathematics)",
+                        "IB - Completed with minimum 25 points (excluding bonus points)"
+                    ],
+                    "cost": {
+                        "local": 83896,
+                        "international": 112000
+                    }
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "Master in Computer Science",
+                    "requirement": [
+                        "Bachelor Degree in Computing - min. CGPA 3.00"
+                    ],
+                    "cost": {
+                        "local": "-",
+                        "international": "-"
+                    }
+                },
+                {
+                    "course": "Master in Information Systems",
+                    "requirement": [
+                        "Bachelor Degree in Computing - min. CGPA 3.00"
+                    ],
+                    "cost": {
+                        "local": "-",
+                        "international": "-"
+                    }
+                },
+                {
+                    "course": "Doctor of Philosophy (Computing)",
+                    "requirement": [
+                        "Master's Degree / Bachelor's Degree in Computing"
+                    ],
+                    "cost": {
+                        "local": "-",
+                        "international": "-"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Inti University",
+            "logo": "http://lunapath.education/image/logo/intiuni.png",
+            "qsrank": "-",
+            "therank": "-",
+            "age": 30,
+            "status": "private",
+            "academic_staff": "-",
+            "academic_int": "-",
+            "students_total": "-",
+            "students_int": "-",
+            "desc": "INTI International University, Laureate International Universities is a private university located in Putra Nilai, Negeri Sembilan, Malaysia. It was known as INTI University College until 31 May 2010 when the Higher Education Ministry announced its upgrade to university status.",
+            "undergrad": [
+                {
+                    "course": "Foundation in Business Information Technology",
+                    "requirement": [
+                        "SPM/O-Level - Pass with 5 Credits (including Mathematics, if IT Pathway is selected)",
+                        "UEC - Pass with min 3 B's (including Mathematics, if IT Pathway is selected)"
+                    ],
+                    "cost": {
+                        "local": 17400,
+                        "international": 24000
+                    }
+                },
+                {
+                    "course": "Diploma in Information & Communications Technology",
+                    "requirement": [
+                        "SPM/O-Level - 3Cs (including Mathematics)",
+                        "UEC - 3Bs (including Mathematics)",
+                        "STPM - 1 principal pass with credit in Mathematics",
+                        "IB - Pass"
+                    ],
+                    "cost": {
+                        "local": 32400,
+                        "international": 42000
+                    }
+                },
+                {
+                    "course": "Bachelor of Computer Science",
+                    "requirement": [
+                        "Foundation - Pass with 2.0 CGPA",
+                        "Diploma - min. CGPA 2.50",
+                        "A-Level - 2Es (and a credit in Maths at SPM or equivalent)",
+                        "STPM - CGPA 2.0",
+                        "UEC - 5Bs",
+                        "CPU - 5 passes with an average of 55",
+                        "TEE - 5 passes with min. aggregate of 279"
+                    ],
+                    "cost": {
+                        "local": 65900,
+                        "international": 81200
+                    }
+                },
+                {
+                    "course": "Bachelor of Information Technology",
+                    "requirement": [
+                        "Foundation - Pass with 2.0 CGPA",
+                        "Diploma - min. CGPA 2.50",
+                        "A-Level - 2Es (and a credit in Maths at SPM or equivalent)",
+                        "STPM - CGPA 2.0",
+                        "UEC - 5Bs",
+                        "CPU - 5 passes with an average of 55",
+                        "TEE - 5 passes with min. aggregate of 279"
+                    ],
+                    "cost": {
+                        "local": 65900,
+                        "international": 81200
+                    }
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "...",
+                    "requirement": [
+                        "..."
+                    ],
+                    "cost": {
+                        "local": 0,
+                        "international": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Monash University",
+            "logo": "http://lunapath.education/image/logo/monashuni.png",
+            "qsrank": "65th",
+            "therank": "65th",
+            "age": 18,
+            "status": "private",
+            "academic_staff": "",
+            "academic_int": 900,
+            "students_total": 10500,
+            "students_int": 5039,
+            "desc": "Moonash is an academic instituition that provides education on Moons.",
+            "undergrad": [
+                {
+                    "course": "Foundation in Computing",
+                    "requirement": [
+                        "SPM - Pass with min 10 A's",
+                        "O-Level - Pass with min 10 A's",
+                        "UEC - Pass with min 3 B's"
+                    ],
+                    "cost": {
+                        "local": 22912,
+                        "international": 9056
+                    }
+                },
+                {
+                    "course": "Bachelor of Computing",
+                    "requirement": [
+                        "Foundation - Pass with 3.0 CGPA",
+                        "A-Levels - Score distintion for everything"
+                    ],
+                    "cost": {
+                        "local": 32912,
+                        "international": 10056
+                    }
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "Master in Computing",
+                    "requirement": [
+                        "Bachelor - Pass with 4.1 CGPA"
+                    ],
+                    "cost": {
+                        "local": 0,
+                        "international": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "HELP University",
+            "logo": "http://lunapath.education/image/logo/helpuni.png",
+            "qsrank": "1000th",
+            "therank": "12967th",
+            "age": 10,
+            "status": "private",
+            "academic_staff": 10000,
+            "academic_int": 2,
+            "students_total": 360,
+            "students_int": 420,
+            "desc": "This Univerdsity will unhelp all the way in life, you will never be unhelped so much in the eternity of your life.",
+            "undergrad": [
+                {
+                    "course": "Foundation in Computing",
+                    "requirement": [
+                        "SPM - Pass with min 10 A's",
+                        "O-Level - Pass with min 10 A's",
+                        "UEC - Pass with min 3 B's"
+                    ],
+                    "cost": {
+                        "local": 22912,
+                        "international": 9056
+                    }
+                },
+                {
+                    "course": "Bachelor of Computing",
+                    "requirement": [
+                        "Foundation - Pass with 3.0 CGPA",
+                        "A-Levels - Score distintion for everything"
+                    ],
+                    "cost": {
+                        "local": 32912,
+                        "international": 10056
+                    }
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "Master in Computing",
+                    "requirement": [
+                        "Bachelor - Pass with 4.1 CGPA"
+                    ],
+                    "cost": {
+                        "local": 0,
+                        "international": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Multi Millionaire University",
+            "logo": "http://lunapath.education/image/logo/mmuuni.png",
+            "qsrank": "65th",
+            "therank": "90th",
+            "age": 100,
+            "status": "public",
+            "academic_staff": 2000,
+            "academic_int": 0,
+            "students_total": 10000,
+            "students_int": 7500,
+            "desc": "This university is only for super rich people because super rich people are super pretentious.",
+            "undergrad": [
+                {
+                    "course": "Foundation in Computing",
+                    "requirement": [
+                        "SPM - Pass with min 10 A's",
+                        "O-Level - Pass with min 10 A's",
+                        "UEC - Pass with min 3 B's"
+                    ],
+                    "cost": {
+                        "local": 22912,
+                        "international": 9056
+                    }
+                },
+                {
+                    "course": "Bachelor of Computing",
+                    "requirement": [
+                        "Foundation - Pass with 3.0 CGPA",
+                        "A-Levels - Score distintion for everything"
+                    ],
+                    "cost": {
+                        "local": 32912,
+                        "international": 10056
+                    }
+                }
+            ],
+            "postgrad": [
+                {
+                    "course": "Master in Computing",
+                    "requirement": [
+                        "Bachelor - Pass with 4.1 CGPA"
+                    ],
+                    "cost": {
+                        "local": 0,
+                        "international": 1
+                    }
+                }
+            ]
+        }
+]

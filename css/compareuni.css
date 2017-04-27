@@ -1,0 +1,96 @@
+/* 
+MAIN COLOR: #2980b9
+SECONDARY COLOR: #EEEEEE
+TEXT: #2c3e50;
+*/
+
+.mainContent {
+    text-align: center;
+}
+
+.infoBox {
+    text-align: left;
+    margin: 0;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 7px 7px 20px #95a5a6;
+    min-height: 500px;
+    max-width: 700px;
+}
+
+.infoItem,
+.selectItem {
+    margin: 8px;
+}
+
+@media (min-width: 970px) {
+    .infoItem,
+    .selectItem {
+        margin: 16px;
+    }
+}
+
+.compareTitle {
+    font-size: 13px;
+}
+
+.uniName {
+    font-size: 24px;
+}
+
+.dropdown {
+    margin-top: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdownContent {
+    position: absolute;
+}
+
+.qsRank,
+.theRank {
+    font-size: 14px;
+}
+
+.miscInfo {
+    font-size: 14px;
+}
+
+.tSection {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.tSection p {
+    font-size: 13px;
+}
+
+.fuzzSearch {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-color: transparent;
+    background-color: #EEEEEE;
+}
+
+.fuzzSearch:focus {
+    outline: none;
+}
+
+.uniChoice div {
+    cursor: pointer;
+}
+
+.courseExit {
+    cursor: pointer;
+}
+
+.pCourse {
+    cursor: pointer;
+}
+
+.footRow1 {
+    margin-left: 10px;
+}
